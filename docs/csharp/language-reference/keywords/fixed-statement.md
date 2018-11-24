@@ -63,7 +63,7 @@ fixed (byte* ps = srcarray, pd = dstarray)
 ```
 
 
-在不安全模式中，可以在堆栈上分配内存，在这种情况下，内存不受垃圾回收的约束，因此不需要固定。 有关详细信息，请参阅 [stackalloc](stackalloc.md)。
+在不安全模式中，可以在栈上分配内存，在这种情况下，内存不受垃圾回收的约束，因此不需要固定。 有关详细信息，请参阅 [stackalloc](stackalloc.md)。
 
 [!code-csharp[Initializing multiple pointers](../../../../samples/snippets/csharp/keywords/FixedKeywordExamples.cs#4)]
 
